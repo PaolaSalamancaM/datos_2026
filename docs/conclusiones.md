@@ -36,7 +36,7 @@ La inmensa mayoría de combinaciones municipio+zona (87%) tiene conectividad bá
 
 ## Próximos pasos (trabajo futuro)
 
-- Diseñar y aplicar el segundo formulario a docentes (aporte de actividades reales) para ampliar el banco de proyectos, con revisión pedagógica antes de publicar cada aporte.
+- Diseñar y aplicar formulario a docentes (aporte de actividades reales) para ampliar el banco de proyectos, con revisión pedagógica antes de publicar cada aporte.
 - Evaluar la inclusión de más años históricos de Saber 11 para observar tendencia, no solo el panorama de los últimos 2 años.
 - Considerar una versión con mayor granularidad de PLN (ej. coincidencia difusa) si el volumen de uso real lo justifica.
-- Si el proyecto avanza a un nivel intermedio del concurso, evaluar la incorporación de un tercer dataset (ej. pobreza multidimensional o infraestructura educativa) para enriquecer el diagnóstico.
+- Evaluar la incorporación de un tercer dataset (ej. pobreza multidimensional o infraestructura educativa) para enriquecer el diagnóstico.
