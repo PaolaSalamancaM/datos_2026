@@ -1,30 +1,30 @@
 # Marco metodológico
 
-## Parte 1 — CRISP-ML(Q)
+## Parte 1: CRISP-ML(Q)
 
 Este proyecto sigue la metodología CRISP-ML(Q), tal como lo exigen las reglas de participación del concurso.
 
-### Fase 1 — Comprensión del negocio y de los datos
+### Fase 1: Comprensión del negocio y de los datos
 Se definió el problema (brecha STEM en Colombia), se fijaron los criterios de éxito y se validaron los dos datasets oficiales. Ver [`planteamiento_problema.md`](planteamiento_problema.md) y [`fuentes_datos.md`](fuentes_datos.md).
 
-### Fase 2 — Ingeniería de datos
+### Fase 2: Ingeniería de datos
 Limpieza, estandarización de nombres de municipio (incluyendo casos especiales como Bogotá D.C.), eliminación de duplicados/vacíos, y cruce de los dos datasets. Ver `notebooks/STEMData_Limpieza_Python.ipynb`.
 
-### Fase 3 — Ingeniería de modelos de IA
+### Fase 3: Ingeniería de modelos de IA
 Ver sección "Componentes de IA" más abajo.
 
-### Fase 4 — Evaluación del modelo
+### Fase 4: Evaluación del modelo
 Validación manual con municipios de prueba, revisión de la distribución de categorías por desviación estándar. Ver [`conclusiones.md`](conclusiones.md).
 
-### Fase 5 — Despliegue
+### Fase 5: Despliegue
 El modelo se integró en un agente conversacional autónomo (`RECURSOS/stemdata_agente.html`), sin backend ni dependencias de pago.
 
-### Fase 6 — Monitoreo y mantenimiento
+### Fase 6: Monitoreo y mantenimiento
 Trabajo futuro: actualización periódica de los datasets, ampliación del banco de proyectos con aportes de docentes (ver sección 5 de este documento).
 
 ---
 
-## Parte 2 — Justificación del componente de IA (nivel básico)
+## Parte 2: Justificación del componente de IA (nivel básico)
 
 El concurso exige, para este nivel, técnicas como *"regresión lineal o logística, árboles de decisión simples o modelos de clasificación básicos"*, además de *"generación automatizada de reportes a partir de datos estructurados"* y opcionalmente *"aproximaciones iniciales de procesamiento de lenguaje natural"*. STEMData incorpora los cuatro, de forma literal:
 
@@ -41,9 +41,7 @@ Como componente adicional (no exigido, mejora el análisis), se incluyó **K-Vec
 
 ---
 
-## Parte 3 — Fundamento académico del enfoque STEM+
-
-El banco de proyectos didácticos del agente no fue diseñado por intuición del equipo, sino siguiendo literatura académica revisada por pares:
+## Parte 3: Fundamento académico del enfoque STEM+
 
 - **Sanders, M. (2009).** *STEM, STEM Education, STEMmania.* Propone STEM como enfoque interdisciplinario entre Ciencia, Tecnología, Ingeniería y Matemáticas.
 - **Martín-Páez, T., Aguilera, D., Perales-Palacios, F. J., y Vílchez-González, J. M. (2019).** *What Are We Talking about When We Talk about STEM Education? A Review of Literature.* Science Education. Define la instrucción STEM como la integración de conceptos de 2 o más disciplinas STEM para que los estudiantes apliquen prácticas de ciencia e ingeniería a **problemas del mundo real** — no la enseñanza aislada de contenidos.
@@ -59,6 +57,3 @@ El banco de proyectos didácticos del agente no fue diseñado por intuición del
 
 ---
 
-## Parte 4 — Validación con usuarios reales (docentes)
-
-Antes de fijar la estructura del banco de proyectos, se diseñó un formulario para que docentes STEM reales validaran qué campos y formato debía tener la planeación generada (ver historial del proyecto). Este proceso puede repetirse: un segundo formulario, dirigido a que los docentes aporten actividades completas y reales que ya hayan usado, alimenta directamente el banco de proyectos tras revisión pedagógica del equipo (pendiente de implementar como siguiente iteración del proyecto).
